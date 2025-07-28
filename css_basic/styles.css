@@ -16,3 +16,6 @@ aside{
     flex: 1;
     overflow-y: auto;
 }
+*, *::before, *::after {
+  box-sizing: border-box;
+}

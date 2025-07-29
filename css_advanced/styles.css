@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(fonts/source-sans-pro/SourceSansPro-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spin Cycle';
+    src: url(fonts/spin-sycle-ot/spincycle_ot.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    padding-top: 15px;
+}
+nav{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Source Sans Pro';
+}
+
+.first_page {
+    background-image: url("data/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    font-size: 120px;
+    font-family: 'Source Sans Pro';
+    color: white;
+    text-align: center;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.center{
+    display: flex;
+    gap: 25px;   
+    color: white; 
+}
+
+.banner button{
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Source Sans Pro';
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.two h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: normal;
+    color: white;
+}
+.two h2 span{
+    color: #C271FF;
+    font-weight: bold; 
+}
+
+.profile div{
+    width: 150px;
+    height: 237px;
+    text-align: center;
+
+}
+
+.profile p {
+    font-size: 16px;
+    word-wrap: break-word;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.profile {
+    color: white;
+    font-weight: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.profile img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.quote { 
+    height: 392px;
+    background-color: #C271FF;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.video { 
+    height: 450px;
+    background-color: white;
+}
+.videos_box div{
+        width: 255px;
+        gap: 5px;
+        padding-top: 7px;
+}
+.videos_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.videos_box div div img{ 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.videos_box div div {
+    display: flex;
+    align-items: center;
+}
+
+.videos_box div div h5 {
+    color: #C271FF;
+}
+
+.video h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-weight: normal;
+}
+
+.video h1 span{
+    color: #C271FF;
+}
+
+.membership{
+    width: 502;
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+}
+.membership div div {
+    color: white;
+    width: 257px;
+    height: 153px;
+}
+.memebership_items {
+    height:502px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.membership button {
+   width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Source Sans Pro';
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+ 
+.mbutton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+
+.first_row div{
+    padding: 30px;
+}
+.second_row div{
+    padding: 30px;
+}
+.faq {
+  padding: 40px;
+  text-align: center;
+}
+
+.full_faq {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 40px; /* space between blocks */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.full_faq > div {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.full_faq h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.full_faq p {
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+ 
+.foot{
+    height: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    height: 260px;
+    background-color: #071629;
+}
+footer p {
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
